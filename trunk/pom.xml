@@ -9,22 +9,22 @@
 	<version>1.0</version>
 	<dependencies>
 		<dependency>
-			<groupId>com.alibaba.external</groupId>
+			<groupId>spring</groupId>
 			<artifactId>sourceforge.spring</artifactId>
 			<version>2.5.6.SEC02</version>
 		</dependency>
 		<dependency>
-			<groupId>com.alibaba.external</groupId>
+			<groupId>spring/groupId>
 			<artifactId>sourceforge.spring.mock</artifactId>
-			<version>2.5.5</version>
+			<version>2.5.6</version>
 		</dependency>
 		<dependency>
-			<groupId>com.alibaba.external</groupId>
+			<groupId>test</groupId>
 			<artifactId>test.junit</artifactId>
 			<version>4.5</version>
 		</dependency>
 		<dependency>
-			<groupId>com.alibaba.external</groupId>
+			<groupId>test</groupId>
 			<artifactId>jakarta.commons.io</artifactId>
 			<version>1.4</version>
 		</dependency>
@@ -49,7 +49,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.alibaba.external</groupId>
+			<groupId>httpclient</groupId>
 			<artifactId>jakarta.commons.httpclient</artifactId>
 			<version>3.1</version>
 		</dependency>
