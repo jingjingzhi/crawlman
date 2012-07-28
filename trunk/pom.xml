@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.alibaba</groupId>
+	<artifactId>spu-crawl</artifactId>
+	<packaging>jar</packaging>
+	<name>spu-crawl</name>
+	<version>1.0</version>
+	<dependencies>
+		<dependency>
+			<groupId>com.alibaba.external</groupId>
+			<artifactId>sourceforge.spring</artifactId>
+			<version>2.5.6.SEC02</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.external</groupId>
+			<artifactId>sourceforge.spring.mock</artifactId>
+			<version>2.5.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.external</groupId>
+			<artifactId>test.junit</artifactId>
+			<version>4.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.external</groupId>
+			<artifactId>jakarta.commons.io</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>net.sourceforge.nekohtml</groupId>
+			<artifactId>nekohtml</artifactId>
+			<version>1.9.15</version>
+		</dependency>
+
+		<dependency>
+			<groupId>apache-log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.15</version>
+		</dependency>
+
+		<dependency>
+			<groupId>oro</groupId>
+			<artifactId>oro</artifactId>
+			<version>2.0.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba.external</groupId>
+			<artifactId>jakarta.commons.httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>13.0-rc1</version>
+		</dependency>
+
+
+	</dependencies>
+</project>

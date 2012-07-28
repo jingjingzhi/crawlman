@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB18030"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName">
+
+	<bean id="crawlJobRunner" class="webcrawl.run.CrawlJobRunner" scope="prototype">
+	</bean>
+	
+	<bean id="requestBus" class="webcrawl.run.RequestBus" scope="prototype"></bean>
+	
+	<bean id="taskExecutorEngine" class="webcrawl.run.HttpRequestTaskExecutorEngine" scope="prototype"></bean>
+	
+	<bean id="targetExecutorEngine" class="webcrawl.run.HttpRequestTaskExecutorEngine" scope="prototype"></bean>
+	
+	<bean id="flowMeasureBucket" class="webcrawl.flow.FlowMeasureBucket" scope="prototype"></bean>
+	
+	<bean id="eventBus" class="webcrawl.run.event.EventBus" scope="prototype"></bean>
+	
+	
+</beans>
